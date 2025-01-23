@@ -1,0 +1,1 @@
+{"name":"Local: 16","url":"/Users/sahilrasaikar/Desktop/CP-31/A2OJ/<1300/16.py","tests":[{"id":1730782930377,"input":"2\n3\n4\n5\n24","output":"17"},{"id":1730783170921,"input":"10\n9\n8\n7\n6","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/sahilrasaikar/Desktop/CP-31/A2OJ/<1300/16.py","group":"local","local":true}

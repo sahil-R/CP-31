@@ -1,0 +1,27 @@
+t=int(input())
+for i in range(t):
+    (a,b)=list(map(int, input().split()))
+    (xk,yk)=list(map(int,input().split()))
+    (xq,yq)=list(map(int,input().split()))
+    movesq=set()
+    movesk=set()
+    movesq.add(str(xk+a)+","+str(yk+b))
+    movesq.add(str(xk+a)+","+str(yk-b))
+    movesq.add(str(xk-a)+","+str(yk+b))
+    movesq.add(str(xk-a)+","+str(yk-b))
+    movesq.add(str(xk+b)+","+str(yk+a))
+    movesq.add(str(xk+b)+","+str(yk-a))
+    movesq.add(str(xk-b)+","+str(yk+a))
+    movesq.add(str(xk-b)+","+str(yk-a))
+    
+    movesk.add(str(xq+a)+","+str(yq+b))
+    movesk.add(str(xq+a)+","+str(yq-b))
+    movesk.add(str(xq-a)+","+str(yq+b))
+    movesk.add(str(xq-a)+","+str(yq-b))
+    movesk.add(str(xq+b)+","+str(yq+a))
+    movesk.add(str(xq+b)+","+str(yq-a))
+    movesk.add(str(xq-b)+","+str(yq+a))
+    movesk.add(str(xq-b)+","+str(yq-a))
+
+    print(len(movesk.intersection(movesq)))
+
