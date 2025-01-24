@@ -2,7 +2,7 @@ n=int(input())
 growth=list(map(int,input().split()))
 
 growth=sorted(growth,reverse=True)
-print(growth)
+# print(growth)
 start=0
 while n>0:
     n-=growth[start]
